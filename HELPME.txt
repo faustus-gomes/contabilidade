@@ -1,7 +1,66 @@
 Fazer mapeamento do ciclo dos arquivos SpringBoot
 
+Token = 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
+Token novo = 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
+=====================================================
+Gerar o JAR: mvn clean package
+=====================================================
 BootStrap:
 https://getbootstrap.com.br/docs/4.1/components/carousel/
 
 Site concorrente:
 https://www.fatogeradortributario.com
+
+Git
+==================
+1) Baixar projeto na DigitalOcean:
+>> git clone https://github.com/faustus-gomes/contabilidade.git
+
+2) Configurar no meu Pc
+  >> git init
+  >> git add .
+  >> git commit -m "Primeiro commit: Adicionando projeto Spring Boot ao controle de versão"
+  >> git remote add origin https://github.com/seu-nome-de-usuário/seu-nome-de-repositório.git
+  >> git push -u origin main
+
+3) ========================================================================================================|
+  | Para criar um token de acesso pessoal no GitHub, siga estas etapas:                                    |
+  |                                                                                                        |
+  |   a)Faça login na sua conta do GitHub:                                                                 |
+  |   Acesse o GitHub em https://github.com/ e faça login na sua conta.                                    |
+  |--------------------------------------------------------------------------------------------------------|
+  |   b)Acesse as configurações do seu perfil:                                                             |
+  |   No canto superior direito da página, clique na sua foto de perfil e selecione "Settings"             |
+  |   (Configurações).                                                                                     |
+  |--------------------------------------------------------------------------------------------------------|
+  |   c) Navegue até as configurações de "Developer settings":                                             |
+  |   No menu lateral esquerdo, clique em "Developer settings" (Configurações do desenvolvedor).           |
+  |   Clique em "Personal access tokens":                                                                  |
+  |   Na seção "Developer settings", clique em "Personal access tokens" (Tokens de acesso pessoal).        |
+  |--------------------------------------------------------------------------------------------------------|
+  |   d)Crie um novo token de acesso pessoal:                                                              |
+  |   Na página "Personal access tokens", clique em "Generate new token" (Gerar novo token).               |
+  |--------------------------------------------------------------------------------------------------------|
+  |   e)Preencha os detalhes do token:                                                                     |
+  |     Você será solicitado a fornecer um nome para o token e a selecionar os escopos de acesso que       |
+  |     deseja conceder ao token.                                                                          |
+  |        * Dê um nome descritivo ao seu token para que você possa identificá-lo facilmente mais tarde.   |
+  |        * Escolha os escopos de acesso apropriados com base nas permissões que você deseja conceder     |
+  |         ao token. Por exemplo, se você estiver usando o token para operações de leitura/gravação       |
+  |         no seu repositório, selecione os escopos relevantes.                                           |
+  |--------------------------------------------------------------------------------------------------------|
+  |   f)Clique em "Generate token":                                                                        |
+  |     Depois de selecionar os escopos e fornecer um nome, clique em "Generate token" (Gerar token).      |
+  |--------------------------------------------------------------------------------------------------------|
+  |   g)Copie o token gerado:                                                                              |
+  |     Após a geração do token, uma vez que ele será exibido na tela, copie-o para um local seguro.       |
+  |     Você não poderá vê-lo novamente.                                                                   |
+  |--------------------------------------------------------------------------------------------------------|
+  |   h)Guarde o token em um local seguro:                                                                 |
+  |     O token de acesso pessoal é uma credencial sensível, portanto, guarde-o em um local seguro.        |
+  |     Não compartilhe ou exponha seu token em locais públicos ou não confiáveis.                         |
+  |--------------------------------------------------------------------------------------------------------|
+  |Obs.: Com o token de acesso pessoal criado, você pode usá-lo em várias ferramentas e aplicativos que    |
+  |oferecem suporte à autenticação via token para interagir com os recursos do GitHub em seu nome.         |
+  |Certifique-se de usar o token com responsabilidade e revogá-lo se não for mais necessário.              |
+  |=========================================================================================================
