@@ -1,0 +1,7 @@
+Fazer mapeamento do ciclo dos arquivos SpringBoot
+
+BootStrap:
+https://getbootstrap.com.br/docs/4.1/components/carousel/
+
+Site concorrente:
+https://www.fatogeradortributario.com

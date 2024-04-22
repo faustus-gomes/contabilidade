@@ -1,0 +1,7 @@
+services:
+  contabilidade:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    network_mode: "contab"
+    restart: always
