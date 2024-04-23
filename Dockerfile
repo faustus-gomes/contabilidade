@@ -6,7 +6,7 @@ FROM amazoncorretto:11
 WORKDIR /app
 
 # Copie o arquivo JAR da sua aplicação para o contêiner
-COPY target/Contabilidade.jar /app/Contabilidade.jar
+COPY target/Contabilidade-0.0.1-SNAPSHOT.jar /app/Contabilidade.jar
 
 # Exponha a porta 8081 para o mundo externo
 EXPOSE 8081

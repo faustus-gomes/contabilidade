@@ -4,6 +4,7 @@ Token = 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
 Token novo = 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
 =====================================================
 Gerar o JAR: mvn clean package
+
 =====================================================
 BootStrap:
 https://getbootstrap.com.br/docs/4.1/components/carousel/
