@@ -21,8 +21,10 @@ Git
   >> git init
   >> git add .
   >> git commit -m "Primeiro commit: Adicionando projeto Spring Boot ao controle de versão"
-  >> git remote add origin https://github.com/seu-nome-de-usuário/seu-nome-de-repositório.git
-  >> git push -u origin main
+  >> Obs: Paraa subir o Jar
+                   -> git add -f target/Contabilidade-0.0.1-SNAPSHOT.jar
+  **>> git remote add origin https://github.com/seu-nome-de-usuário/seu-nome-de-repositório.git
+  **>> git push -u origin main
 
 3) ========================================================================================================|
   | Para criar um token de acesso pessoal no GitHub, siga estas etapas:                                    |
